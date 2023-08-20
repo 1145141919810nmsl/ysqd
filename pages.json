@@ -12,12 +12,41 @@
 		}
 
 	}, {
+		"path": "pages/cart/cart",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+	}, {
 		"path": "pages/my/my",
 		"style": {
 			"enablePullDownRefresh": false
 		}
 
 	}],
+	"subPackages": [
+		{
+			"root": "subpkg",
+			"pages": [
+			{
+                    "path" : "goods_detail/goods_detail",
+                    "style" :                                                                                    
+                {
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "goods_list/goods_list",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+		}
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "114514",
@@ -38,15 +67,21 @@
 			},
 			{
 				"pagePath": "pages/text/text",
-				"text": "text",
+				"text": "分类",
 				"iconPath": "static/c3.png",
 				"selectedIconPath": "static/c4.png"
 			},
 			{
-				"pagePath": "pages/my/my",
-				"text": "我的",
+				"pagePath": "pages/cart/cart",
+				"text": "购物车",
 				"iconPath": "static/c5.png",
 				"selectedIconPath": "static/c6.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/c7.png",
+				"selectedIconPath": "static/c8.png"
 			}
 		]
 	}
